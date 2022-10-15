@@ -137,7 +137,8 @@ img {
 }
 
 input::placeholder,
-textarea::placeholder {
+textarea::placeholder,
+button {
   font-family: "Kalam", cursive;
   font-size: 1rem;
 }
