@@ -2,22 +2,25 @@ import React from "react";
 import "./experience.css";
 import Skills from "./Skills";
 
+let experienceYears = new Date().getFullYear() - 2018;
+// console.log(experienceYears);
+
 const frontendSkills = [
-  { name: "HTML", experience: "Advanced" },
-  { name: "CSS", experience: "Advanced" },
-  { name: "JavaScript", experience: "Intermediate" },
-  { name: "TypeScript", experience: "Intermediate" },
-  { name: "React", experience: "Intermediate" },
-  { name: "MUI", experience: "Intermediate" },
+  { name: "HTML", experience: experienceYears + "+ Years" },
+  { name: "CSS", experience: experienceYears + "+ Years" },
+  { name: "JavaScript", experience: experienceYears - 1 + "+ Years" },
+  { name: "React", experience: experienceYears - 1 + "+ Years" },
+  { name: "TypeScript", experience: experienceYears - 3 + "+ Years" },
+  { name: "MUI", experience: experienceYears - 3 + "+ Years" },
 ];
 
 const backendSkills = [
-  { name: "C#", experience: "Advanced" },
-  { name: "Java", experience: "Advanced" },
-  { name: "SQL", experience: "Advanced" },
-  { name: "MongoDB", experience: "Intermediate" },
-  { name: "Python", experience: "Intermediate" },
-  { name: "Node.js", experience: "Intermediate" },
+  { name: "C#", experience: experienceYears + "+ Years" },
+  { name: "Java", experience: experienceYears + "+ Years" },
+  { name: "SQL", experience: experienceYears + "+ Years" },
+  { name: "MongoDB", experience: experienceYears - 2 + "+ Years" },
+  { name: "Python", experience: experienceYears - 3 + "+ Years" },
+  { name: "Node.js", experience: experienceYears - 3 + "+ Years" },
 ];
 
 const Experience = () => {
