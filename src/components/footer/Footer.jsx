@@ -5,13 +5,13 @@ import "./footer.css";
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer_logo">
+      <a href="#home" className="footer_logo">
         Rei Kajiwara
       </a>
 
       <ul className="permalinks">
         <li>
-          <a href="#">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
           <a href="#about">About</a>
@@ -28,13 +28,13 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://linkedin.com/" target="_brank">
+        <a href="https://linkedin.com/" target="_brank" rel="noreferrer">
           <BsLinkedin />
         </a>
-        <a href="https://github.com/" target="_brank">
+        <a href="https://github.com/" target="_brank" rel="noreferrer">
           <BsGithub />
         </a>
-        <a href="https://instagram.com/" target="_brank">
+        <a href="https://instagram.com/" target="_brank" rel="noreferrer">
           <BsInstagram />
         </a>
       </div>

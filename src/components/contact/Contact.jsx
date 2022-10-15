@@ -40,7 +40,11 @@ const Contact = () => {
             <AiOutlineMail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>12369ka@gmail.com</h5>
-            <a href="mailto:12369ka@gmail.com" target={"_blank"}>
+            <a
+              href="mailto:12369ka@gmail.com"
+              target={"_blank"}
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -48,7 +52,11 @@ const Contact = () => {
             <BsInstagram className="contact_option-icon" />
             <h4>Instagram</h4>
             <h5>@rei_kaji0</h5>
-            <a href="https://www.instagram.com/rei_kaji0/" target={"_blank"}>
+            <a
+              href="https://www.instagram.com/rei_kaji0/"
+              target={"_blank"}
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -56,7 +64,11 @@ const Contact = () => {
             <BsLinkedin className="contact_option-icon" />
             <h4>LinkedIn</h4>
             <h5>Rei Kajiwara</h5>
-            <a href="https://www.linkedin.com/in/reikaji" target={"_blank"}>
+            <a
+              href="https://www.linkedin.com/in/reikaji"
+              target={"_blank"}
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
