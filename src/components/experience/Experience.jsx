@@ -5,19 +5,19 @@ import Skills from "./Skills";
 const frontendSkills = [
   { name: "HTML", experience: "Advanced" },
   { name: "CSS", experience: "Advanced" },
-  { name: "JavaScript", experience: "Intermadiate" },
-  { name: "TypeScript", experience: "Intermadiate" },
-  { name: "React", experience: "Intermadiate" },
-  { name: "MUI", experience: "Intermadiate" },
+  { name: "JavaScript", experience: "Intermediate" },
+  { name: "TypeScript", experience: "Intermediate" },
+  { name: "React", experience: "Intermediate" },
+  { name: "MUI", experience: "Intermediate" },
 ];
 
 const backendSkills = [
   { name: "C#", experience: "Advanced" },
   { name: "Java", experience: "Advanced" },
   { name: "SQL", experience: "Advanced" },
-  { name: "MongoDB", experience: "Intermadiate" },
-  { name: "Python", experience: "Intermadiate" },
-  { name: "Node.js", experience: "Intermadiate" },
+  { name: "MongoDB", experience: "Intermediate" },
+  { name: "Python", experience: "Intermediate" },
+  { name: "Node.js", experience: "Intermediate" },
 ];
 
 const Experience = () => {
