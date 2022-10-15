@@ -1,4 +1,10 @@
 .about_container {
+  /* display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%; */
+}
+
+.about_container_bord {
   display: grid;
   grid-template-columns: 35% 50%;
   gap: 15%;
@@ -6,7 +12,7 @@
 
 .about_me {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1.5/1;
   border-radius: 2rem;
   background: linear-gradient(
     45deg,
@@ -16,6 +22,7 @@
   );
   display: grid;
   place-items: center;
+  margin: auto 0;
 }
 
 .about_me-image {
@@ -31,7 +38,7 @@
 
 .about_cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.5rem;
 }
 
@@ -65,10 +72,12 @@
   color: var(--color-light);
 }
 
-.about_content p {
+.about_explain p {
   margin: 2rem 0 2.6rem;
-  color: var(--color-light);
+  color: var(--color-white);
   word-wrap: break-word;
+  font-size: 1.8rem;
+  text-align: center;
 }
 
 .about_container .about_btn {
@@ -80,7 +89,7 @@
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
-  .about_container {
+  .about_container_bord {
     grid-template-columns: 1fr;
     gap: 0;
   }
@@ -92,6 +101,10 @@
 
   .about_content p {
     margin: 1rem 0 1.5rem;
+  }
+
+  .about_card {
+    height: 10rem;
   }
 }
 

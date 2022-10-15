@@ -23,7 +23,7 @@ const backendSkills = [
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>What Skills I Have.</h5>
+      <h4>What Skills I Have</h4>
       <h2>My Experience</h2>
 
       <div className="container experience_container">
