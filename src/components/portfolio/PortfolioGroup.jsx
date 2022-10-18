@@ -30,10 +30,10 @@ const PortfolioGroup = [
     demo: "https://pokemon-picture-book.netlify.app/",
   },
   {
-    title: "Blog App",
-    image: require("../../assets/blog.png"),
-    github: "https://github.com/rei-kaji/blog-react-app",
-    demo: "https://blog-app-5333.web.app/",
+    title: "Chat App",
+    image: require("../../assets/chat.png"),
+    github: "https://github.com/rei-kaji/chat-app",
+    demo: "https://rei-chat-app.netlify.app",
   },
 ];
 
