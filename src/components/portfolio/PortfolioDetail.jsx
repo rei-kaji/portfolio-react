@@ -50,7 +50,7 @@ const PortfolioDetail = () => {
           ></iframe>
         </div>
         <div className="link">
-          <Link className="btn-primary btn-link" to={"/"}>
+          <Link className="btn btn-primary btn-link" to={"/"}>
             Home
           </Link>
         </div>
