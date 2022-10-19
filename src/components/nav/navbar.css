@@ -27,7 +27,7 @@ nav a {
   font-size: 1.1rem;
 }
 
-nav .linkbtn {
+/* nav .linkbtn {
   display: flex;
   justify-content: center;
   align-content: center;
@@ -36,7 +36,7 @@ nav .linkbtn {
   border-radius: 50%;
   color: var(--color-light);
   font-size: 1.1rem;
-}
+} */
 
 nav a:hover {
   background: rgba(0, 0, 0, 0.3);
