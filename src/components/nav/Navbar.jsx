@@ -4,46 +4,72 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BsChatText } from "react-icons/bs";
 import { MdOutlineHomeWork } from "react-icons/md";
 import { GiFeather } from "react-icons/gi";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("home");
   return (
     <nav>
-      <a
-        href="#home"
-        onClick={() => setActiveNav("home")}
-        className={activeNav === "home" ? "active" : ""}
+      <Link
+        to="home"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-50}
+        duration={100}
+        //onClick={() => setActiveNav("active")}
+        //className={activeNav === "active" ? "active linkbtn" : "linkbtn"}
       >
         <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("about")}
-        className={activeNav === "about" ? "active" : ""}
+      </Link>
+      <Link
+        to="about"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-10}
+        duration={100}
+        //onClick={() => setActiveNav("active")}
+        //className={activeNav === "active" ? "active linkbtn" : "linkbtn"}
       >
         <AiOutlineUser />
-      </a>
-      <a
-        href="#portfolio"
-        onClick={() => setActiveNav("portfolio")}
-        className={activeNav === "portfolio" ? "active" : ""}
+      </Link>
+      <Link
+        to="portfolio"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-10}
+        duration={100}
+        //onClick={() => setActiveNav("active")}
+        //className={activeNav === "active" ? "active linkbtn" : "linkbtn"}
       >
         <GiFeather />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("experience")}
-        className={activeNav === "experience" ? "active" : ""}
+      </Link>
+      <Link
+        to="experience"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-30}
+        duration={100}
+        //onClick={() => setActiveNav("active")}
+        //className={activeNav === "active" ? "active linkbtn" : "linkbtn"}
       >
         <MdOutlineHomeWork />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("contact")}
-        className={activeNav === "contact" ? "active" : ""}
+      </Link>
+      <Link
+        to="contact"
+        activeClass="active"
+        spy={true}
+        smooth={true}
+        offset={-50}
+        duration={100}
+        //onClick={() => setActiveNav("active")}
+        //className={activeNav === "active" ? "active linkbtn" : "linkbtn"}
       >
         <BsChatText />
-      </a>
+      </Link>
     </nav>
   );
 };

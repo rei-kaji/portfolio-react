@@ -27,11 +27,27 @@ nav a {
   font-size: 1.1rem;
 }
 
+nav .linkbtn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
 nav a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 
 nav a.active {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+nav .active {
   background: var(--color-primary);
   color: var(--color-bg);
 }

@@ -19,8 +19,8 @@ const backendSkills = [
   { name: "Java", experience: experienceYears + "+ Years" },
   { name: "SQL", experience: experienceYears + "+ Years" },
   { name: "MongoDB", experience: experienceYears - 2 + "+ Years" },
+  { name: "Firebase", experience: experienceYears - 2 + "+ Years" },
   { name: "Python", experience: experienceYears - 3 + "+ Years" },
-  { name: "Node.js", experience: experienceYears - 3 + "+ Years" },
 ];
 
 const Experience = () => {
@@ -35,10 +35,9 @@ const Experience = () => {
           <div className="experience_content">
             {frontendSkills.map((skills) => {
               return (
-                <Skills
-                  name={skills.name}
-                  experience={skills.experience}
-                ></Skills>
+                <div key={skills.name}>
+                  <Skills name={skills.name} experience={skills.experience} />
+                </div>
               );
             })}
           </div>
@@ -48,10 +47,9 @@ const Experience = () => {
           <div className="experience_content">
             {backendSkills.map((skills) => {
               return (
-                <Skills
-                  name={skills.name}
-                  experience={skills.experience}
-                ></Skills>
+                <div key={skills.name}>
+                  <Skills name={skills.name} experience={skills.experience} />
+                </div>
               );
             })}
           </div>

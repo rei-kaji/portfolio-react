@@ -1,9 +1,3 @@
-.about_container {
-  /* display: grid;
-  grid-template-columns: 35% 50%;
-  gap: 15%; */
-}
-
 .about_container_bord {
   display: grid;
   grid-template-columns: 35% 50%;

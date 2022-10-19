@@ -12,12 +12,16 @@ const Portfolio = () => {
       <div className="container portfolio_container">
         {PortfolioGroup.map((data) => {
           return (
-            <PortfolioGallery
-              title={data.title}
-              image={data.image}
-              github={data.github}
-              demo={data.demo}
-            />
+            <div key={data.title}>
+              <PortfolioGallery
+                title={data.title}
+                image={data.image}
+                github={data.github}
+                demo={data.demo}
+                language={data.language}
+                explain={data.explain}
+              />
+            </div>
           );
         })}
       </div>
