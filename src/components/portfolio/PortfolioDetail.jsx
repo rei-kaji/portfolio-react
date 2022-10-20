@@ -35,7 +35,7 @@ const PortfolioDetail = () => {
                 return <span key={data}>{data}, </span>;
               })}
             </h4>
-            <h3 style={{ marginTop: "2rem" }}>Explain:</h3>
+            <h3>Explain:</h3>
             <p>{portfolioInfo.explain}</p>
           </div>
           <div className="portfolioDetail_iframe">

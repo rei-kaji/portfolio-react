@@ -70,6 +70,7 @@
 
 .portfolioDetail_container .portfolioExplain h3 {
   color: var(--color-light);
+  margin-top: 2rem;
 }
 
 .portfolioDetail_container .portfolioExplain p {
