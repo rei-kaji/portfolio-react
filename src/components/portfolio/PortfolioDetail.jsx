@@ -4,7 +4,6 @@ import { Link, useLocation } from "react-router-dom";
 const PortfolioDetail = () => {
   const location = useLocation();
   const portfolioInfo = location.state.state;
-  // console.log(portfolioInfo);
   return (
     <section id="portfolioDetail">
       <div className="container">
@@ -50,7 +49,11 @@ const PortfolioDetail = () => {
           ></iframe>
         </div>
         <div className="link">
-          <Link className="btn btn-primary btn-link" to={"/"}>
+          <Link
+            className="btn btn-primary btn-link"
+            to={"/"}
+            state={{ state: "return" }}
+          >
             Home
           </Link>
         </div>
