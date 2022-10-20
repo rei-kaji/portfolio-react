@@ -44,6 +44,10 @@
   align-content: center;
 }
 
+#portfolioDetail {
+  margin-top: 4rem;
+}
+
 #portfolioDetail .container {
   background-color: var(--color-bg-variant);
   background-size: cover;
@@ -72,6 +76,10 @@
   font-size: 1.3rem;
 }
 
+.portfolioDetail_link {
+  margin-top: 2rem;
+}
+
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
@@ -96,7 +104,7 @@
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 2rem;
+    bottom: 3rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
     justify-content: center;
