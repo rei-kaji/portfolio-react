@@ -1,10 +1,19 @@
 const PortfolioGroup = [
   {
-    title: "Note with MUI",
+    title: "Note with MUI & GraphCMS",
     image: require("../../assets/note.png"),
-    github: "https://github.com/rei-kaji/note_with_mui",
-    demo: "https://note-app-with-mui.netlify.app/#simple-list",
-    language: ["React", "TypeScript", "MUI", "HTML", "CSS", "Scss"],
+    github: "https://github.com/rei-kaji/blog_with_MUI-and-GraphCMS",
+    demo: "https://blog-with-mui-and-graphcms.netlify.app",
+    language: [
+      "React",
+      "TypeScript",
+      "MUI",
+      "HTML",
+      "CSS",
+      "Scss",
+      "GraphQL",
+      "GraphCMS",
+    ],
     explain: "This web app was created with MUI.",
   },
   {
