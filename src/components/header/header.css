@@ -6,8 +6,26 @@ header {
 
 .header_container {
   text-align: center;
-  height: 57rem;
+  height: 45rem;
   position: relative;
+}
+
+@keyframes zoomFade {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.header_name {
+  font-size: 12rem;
+  text-shadow: 0 0 10px #ffffff, 0 0 15px var(--color-primary);
+  animation: zoomFade 2s ease-in-out infinite;
 }
 
 /* ========== CTA ========== */
@@ -26,7 +44,7 @@ header {
   gap: 0.8rem;
   position: absolute;
   left: 0%;
-  bottom: 3rem;
+  bottom: 7rem;
 }
 
 .header_socials::after {
@@ -58,7 +76,7 @@ header {
 .scroll_down {
   position: absolute;
   right: -1.8rem;
-  bottom: 5rem;
+  bottom: 9rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
@@ -69,6 +87,10 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
+  }
+
+  .header_name {
+    font-size: 5rem;
   }
 }
 

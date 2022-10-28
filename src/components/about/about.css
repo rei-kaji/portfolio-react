@@ -83,6 +83,10 @@
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
+  #about {
+    margin-top: 2rem;
+  }
+
   .about_container_bord {
     grid-template-columns: 1fr;
     gap: 0;

@@ -8,14 +8,14 @@ const Header = () => {
   return (
     <header id="home" className="container header_container">
       <h2>Hello, I'm</h2>
-      <h1>Rei Kajiwara</h1>
+      <h1 className="header_name">Rei Kajiwara</h1>
       <h3 className="text-light">Fullstack Developer</h3>
       <CTA />
       <HeaderSocial />
 
-      <div className="me">
+      {/* <div className="me">
         <img src={ME} alt="me" />
-      </div>
+      </div> */}
       <a href="#contact" className="scroll_down">
         Scroll Down
       </a>
