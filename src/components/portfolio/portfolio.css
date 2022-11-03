@@ -24,6 +24,7 @@
 
 .portfolio_item-image img {
   height: 15rem;
+  width: 100%;
 }
 
 #portfolioDetail h2 {
@@ -79,6 +80,10 @@
 
 .portfolioDetail_link {
   margin-top: 2rem;
+}
+
+.portfolioDetail_iframe img {
+  border-radius: 10px;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */

@@ -1,5 +1,13 @@
 const PortfolioGroup = [
   {
+    title: "Fitness App",
+    image: require("../../assets/fitness.png"),
+    github: "https://github.com/rei-kaji/fitness-app",
+    demo: "https://rei-fitness.netlify.app/",
+    language: ["React", "MUI", "RappidAPI", "HTML", "CSS"],
+    explain: "Using RappidAPI. You can search and learn how to make your body.",
+  },
+  {
     title: "Note with MUI & GraphCMS",
     image: require("../../assets/note.png"),
     github: "https://github.com/rei-kaji/blog_with_MUI-and-GraphCMS",
@@ -34,14 +42,6 @@ const PortfolioGroup = [
       "In Vancouver, people gather at parks and freely form teams to play soccer or basketball, but it is often the case that you cannot play the game even after you arrive because you do not know if anyone is currently there or not until you get there. My friend and I created this service to solve this problem.",
   },
   {
-    title: "Film Dictionary",
-    image: require("../../assets/academy.jpeg"),
-    github: "https://github.com/rei-kaji/film-dictionary",
-    demo: "https://film-dictionary.netlify.app/",
-    language: ["React", "omdbAPI", "HTML", "CSS"],
-    explain: "I love movies. So I created a web app related to movies.",
-  },
-  {
     title: "Pokemon Picture Book",
     image: require("../../assets/pokemon.png"),
     github: "https://github.com/rei-kaji/pokemon-app",
@@ -58,6 +58,14 @@ const PortfolioGroup = [
     explain:
       "It was created using the Firebase user authentication system and FireStorage.",
   },
+  // {
+  //   title: "Film Dictionary",
+  //   image: require("../../assets/academy.jpeg"),
+  //   github: "https://github.com/rei-kaji/film-dictionary",
+  //   demo: "https://film-dictionary.netlify.app/",
+  //   language: ["React", "omdbAPI", "HTML", "CSS"],
+  //   explain: "I love movies. So I created a web app related to movies.",
+  // },
 ];
 
 export default PortfolioGroup;

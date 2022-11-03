@@ -39,10 +39,11 @@ const PortfolioDetail = () => {
             <p>{portfolioInfo.explain}</p>
           </div>
           <div className="portfolioDetail_iframe">
-            <iframe
+            <img src={portfolioInfo.image} alt={portfolioInfo.title} />
+            {/* <iframe
               title={portfolioInfo.title}
               src={portfolioInfo.demo}
-            ></iframe>
+            ></iframe> */}
           </div>
         </div>
         <div className="portfolioDetail_link">
