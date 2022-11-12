@@ -68,19 +68,23 @@ h1 {
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 h4 {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 h5 {
-  font-size: 0.9rem;
+  font-size: 1.3rem;
+}
+
+small {
+  font-size: 1.3rem;
 }
 
 section {
@@ -105,6 +109,7 @@ section > h2 {
 a {
   color: var(--color-primary);
   transition: var(--transition);
+  font-size: 1.3rem;
 }
 
 a:hover {
@@ -159,7 +164,7 @@ input::placeholder,
 textarea::placeholder,
 .btn {
   font-family: "Kalam", cursive;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
