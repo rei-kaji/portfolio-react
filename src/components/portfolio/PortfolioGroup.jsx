@@ -8,7 +8,7 @@ const PortfolioGroup = [
     explain: "Using RappidAPI. You can search and learn how to make your body.",
   },
   {
-    title: "Note with MUI & GraphCMS",
+    title: "Note with GraphCMS",
     image: require("../../assets/note.png"),
     github: "https://github.com/rei-kaji/blog_with_MUI-and-GraphCMS",
     demo: "https://blog-with-mui-and-graphcms.netlify.app",
