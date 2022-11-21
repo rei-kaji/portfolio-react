@@ -3,6 +3,7 @@ import "./about.css";
 import Me from "../../assets/me-about.jpg";
 import { FaAward, FaSchool } from "react-icons/fa";
 import { FiUsers, FiFolder } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const About = () => {
   let experienceYears = new Date().getFullYear() - 2018;
@@ -37,7 +38,7 @@ const About = () => {
               <article className="about_card">
                 <FaSchool className="about_icon" />
                 <h3>Educational</h3>
-                <small>Bachelor's degree</small>
+                <small>Web development Diploma</small>
               </article>
             </div>
           </div>
@@ -53,9 +54,9 @@ const About = () => {
           </p>
         </div>
         <div className="about_btn">
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
+          <Link className="btn btn-primary" to={"/myfavorite"}>
+            My Favorite
+          </Link>
         </div>
       </div>
     </section>

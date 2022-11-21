@@ -27,6 +27,10 @@ header {
   text-shadow: 0 0 10px #ffffff, 0 0 15px var(--color-primary);
   animation: zoomFade 2s ease-in-out infinite;
 }
+/* 
+.job_name {
+  color: var(--color-primary);
+} */
 
 /* ========== CTA ========== */
 .cta {

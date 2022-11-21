@@ -9,7 +9,7 @@ const frontendSkills = [
   { name: "HTML", experience: experienceYears + "+ Years" },
   { name: "CSS", experience: experienceYears + "+ Years" },
   { name: "JavaScript", experience: experienceYears - 1 + "+ Years" },
-  { name: "React", experience: experienceYears - 1 + "+ Years" },
+  { name: "React", experience: experienceYears - 2 + "+ Years" },
   { name: "TypeScript", experience: experienceYears - 3 + "+ Years" },
   { name: "MUI", experience: experienceYears - 3 + "+ Years" },
 ];

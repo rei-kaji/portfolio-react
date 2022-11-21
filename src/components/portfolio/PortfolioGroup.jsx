@@ -5,7 +5,8 @@ const PortfolioGroup = [
     github: "https://github.com/rei-kaji/fitness-app",
     demo: "https://rei-fitness.netlify.app/",
     language: ["React", "MUI", "RappidAPI", "HTML", "CSS"],
-    explain: "Using RappidAPI. You can search and learn how to make your body.",
+    explain:
+      "Using RappidAPI. You can search and learn how to make your body strong.",
   },
   {
     title: "Note with GraphCMS",
@@ -22,15 +23,17 @@ const PortfolioGroup = [
       "GraphQL",
       "GraphCMS",
     ],
-    explain: "This web app was created with MUI.",
+    explain:
+      "This web app was created with MUI and GraphCMS. It implements a button to switch to dark mode and display a new posting function in the modal.",
   },
   {
     title: "Portfolio in full scratch",
     image: require("../../assets/portfolio.png"),
     github: "https://github.com/rei-kaji/portfolio-react",
     demo: "https://rei-portfolio.netlify.app/#home",
-    language: ["React", "TypeScript", "MUI", "HTML", "CSS", "Scss"],
-    explain: "This Web site!",
+    language: ["React", "MUI", "HTML", "CSS"],
+    explain:
+      "This Web site! Features include full-scratch overall creation, floating menus, and CSS animations implemented.",
   },
   {
     title: "Event BBS",
@@ -47,7 +50,7 @@ const PortfolioGroup = [
     github: "https://github.com/rei-kaji/pokemon-app",
     demo: "https://pokemon-picture-book.netlify.app/",
     language: ["React", "pokeAPI", "HTML", "CSS"],
-    explain: "You can check all of Pokemon!",
+    explain: "You can check all of Pokemon! It was created with PokeAPI.",
   },
   {
     title: "Chat App",
@@ -56,7 +59,7 @@ const PortfolioGroup = [
     demo: "https://rei-chat-app.netlify.app",
     language: ["React", "TypeScript", "Firebase", "MUI", "HTML", "CSS"],
     explain:
-      "It was created using the Firebase user authentication system and FireStorage.",
+      "It was created using the Firebase user authentication system and FireStorage. It can comunicate with your friends on real time.",
   },
   // {
   //   title: "Film Dictionary",
