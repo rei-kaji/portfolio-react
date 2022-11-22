@@ -86,14 +86,21 @@ header {
   font-size: 1.2rem;
 }
 
-/* ========== Change Color Radio Button ========== */
+/* ========== Change Color Button ========== */
 
-.selector {
-  /* width: 3rem; */
+.header_container .color_selector {
+  position: absolute;
+  display: flex;
+  gap: 0.5rem;
+  right: 0rem;
+  top: 0;
+}
+
+/* .selector {
   display: flex;
   justify-content: center;
   align-content: center;
-}
+} */
 
 .change_color input {
   display: none;
@@ -106,9 +113,6 @@ header {
 .change_color label {
   display: block; /* ブロックレベル要素化する */
   float: left; /* 要素の左寄せ・回り込を指定する */
-  margin: 5px; /* ボックス外側の余白を指定する */
-  padding-left: 5px; /* ボックス内左側の余白を指定する */
-  padding-right: 5px; /* ボックス内御右側の余白を指定する */
   text-align: center; /* テキストのセンタリングを指定する */
   cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
   border-radius: 5px; /* 角丸を指定する */
@@ -145,14 +149,6 @@ header {
   color: white;
 }
 
-.header_container .color_selector {
-  position: absolute;
-  display: flex;
-  gap: 0.5rem;
-  right: 0rem;
-  top: 0;
-}
-
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
@@ -162,6 +158,10 @@ header {
 
   .header_name {
     font-size: 5rem;
+  }
+
+  .header_container .color_selector {
+    gap: 0.2rem;
   }
 }
 
