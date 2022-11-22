@@ -48,7 +48,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <ChangeTheme />
+      {/* <ChangeTheme /> */}
 
       <div className="footer_copyright">
         <small>&copy; Rei Kajiwara. All rights reserved.</small>

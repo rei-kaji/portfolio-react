@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
@@ -83,7 +83,74 @@ header {
   bottom: 9rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
+}
+
+/* ========== Change Color Radio Button ========== */
+
+.selector {
+  /* width: 3rem; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.change_color input {
+  display: none;
+}
+
+.change_color button {
+  color: var(--color-bg);
+}
+
+.change_color label {
+  display: block; /* ブロックレベル要素化する */
+  float: left; /* 要素の左寄せ・回り込を指定する */
+  margin: 5px; /* ボックス外側の余白を指定する */
+  padding-left: 5px; /* ボックス内左側の余白を指定する */
+  padding-right: 5px; /* ボックス内御右側の余白を指定する */
+  text-align: center; /* テキストのセンタリングを指定する */
+  cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+  border-radius: 5px; /* 角丸を指定する */
+}
+
+.darkblue {
+  color: rgb(14, 168, 219);
+}
+
+.dark {
+  color: yellow;
+}
+
+.dark:checked {
+  --color-bg: #2c7873;
+  --color-bg-variant: #04373b;
+  --color-primary: #6fb98f;
+  --color-primary-variant: #004455;
+}
+
+.green {
+  color: rgb(43, 234, 43);
+}
+
+.cute {
+  color: pink;
+}
+
+.pastel {
+  color: rgb(53, 252, 242);
+}
+
+.greece {
+  color: white;
+}
+
+.header_container .color_selector {
+  position: absolute;
+  display: flex;
+  gap: 0.5rem;
+  right: 0rem;
+  top: 0;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */

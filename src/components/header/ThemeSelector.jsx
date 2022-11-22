@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 let rootCss = document.querySelector(":root");
 
-const ChangeTheme = () => {
+const ThemeSelector = () => {
   const [theme, setTheme] = useState("#fff");
 
   const changeTheme = (color) => {
@@ -51,8 +51,6 @@ const ChangeTheme = () => {
   }, [theme]);
   return (
     <div className="color_selector">
-      <h5>Select theme color</h5>
-
       <ul className="change_color">
         <li>
           <input
@@ -62,7 +60,7 @@ const ChangeTheme = () => {
             onChange={() => changeTheme("DarkBlue")}
           />
           <label htmlFor="DarkBlue" className="darkblue">
-            Dark Blue
+            Cool
           </label>
         </li>
         <li>
@@ -73,7 +71,7 @@ const ChangeTheme = () => {
             onChange={() => changeTheme("Dark")}
           />
           <label htmlFor="Dark" className="dark">
-            Dark
+            Bee
           </label>
         </li>
         <li>
@@ -84,7 +82,7 @@ const ChangeTheme = () => {
             onChange={() => changeTheme("Green")}
           />
           <label htmlFor="Green" className="green">
-            Green
+            Forest
           </label>
         </li>
         <li>
@@ -125,4 +123,4 @@ const ChangeTheme = () => {
   );
 };
 
-export default ChangeTheme;
+export default ThemeSelector;
