@@ -12,10 +12,11 @@
 }
 
 :root {
+  /* Dark Blue Theme */
   --color-bg: #1f3438dc;
   --color-bg-variant: #2c616cc3;
   --color-primary: #7ff2f8b9;
-  --color-primary-variant: rgba(77, 225, 255, 0.709);
+  --color-primary-variant: #39eff9b9;
 
   /* Green Theme */
   /* --color-bg: #2c7873;

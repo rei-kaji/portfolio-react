@@ -1,5 +1,6 @@
 import React from "react";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import ChangeTheme from "./ChangeTheme";
 import "./footer.css";
 
 const Footer = () => {
@@ -46,6 +47,8 @@ const Footer = () => {
           <BsInstagram />
         </a>
       </div>
+
+      <ChangeTheme />
 
       <div className="footer_copyright">
         <small>&copy; Rei Kajiwara. All rights reserved.</small>

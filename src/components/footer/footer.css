@@ -17,7 +17,8 @@ footer a {
   display: inline-block;
 }
 
-.permalinks {
+.permalinks,
+.change_color {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -51,6 +52,66 @@ footer a {
 .footer_copyright {
   margin-bottom: 4rem;
   color: var(--color-bg);
+}
+
+/* ========== Change Color Radio Button ========== */
+
+.change_color input {
+  display: none;
+}
+
+.change_color button {
+  color: var(--color-bg);
+}
+
+.change_color label {
+  display: block; /* ブロックレベル要素化する */
+  float: left; /* 要素の左寄せ・回り込を指定する */
+  margin: 5px; /* ボックス外側の余白を指定する */
+  padding-left: 5px; /* ボックス内左側の余白を指定する */
+  padding-right: 5px; /* ボックス内御右側の余白を指定する */
+  text-align: center; /* テキストのセンタリングを指定する */
+  cursor: pointer; /* マウスカーソルの形（リンクカーソル）を指定する */
+  border-radius: 5px; /* 角丸を指定する */
+}
+
+.darkblue {
+  color: darkblue;
+}
+
+#DarkBlue:checked ~ #dddd {
+  color: white;
+  --color-bg: #1f3438dc;
+  --color-bg-variant: #2c616cc3;
+  --color-primary: #7ff2f8b9;
+  --color-primary-variant: rgba(77, 225, 255, 0.709);
+}
+
+.dark {
+  color: black;
+}
+
+.dark:checked {
+  --color-bg: #2c7873;
+  --color-bg-variant: #04373b;
+  --color-primary: #6fb98f;
+  --color-primary-variant: #004455;
+}
+
+.green {
+  color: green;
+}
+
+.cute {
+  color: pink;
+}
+
+.pastel {
+  color: lightblue;
+}
+
+.greece {
+  color: white;
 }
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
