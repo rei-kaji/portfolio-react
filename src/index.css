@@ -17,12 +17,12 @@
   --color-primary: #4dffc1a7;
   --color-primary-variant: rgba(101, 255, 77, 0.4); */
 
-  --color-bg: #1f3438;
-  --color-bg-variant: #2c616c;
-  --color-primary: #4df6ffa7;
-  --color-primary-variant: rgba(77, 225, 255, 0.4);
+  --color-bg: #1f3438dc;
+  --color-bg-variant: #2c616cc3;
+  --color-primary: #7ff2f8b9;
+  --color-primary-variant: rgba(77, 225, 255, 0.709);
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: rgba(255, 255, 255, 0.67);
 
   --transition: all 400ms ease;
 

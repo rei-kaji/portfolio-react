@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import PhotoGallery from "./PhotoGallery";
 import PhotoModal from "./PhotoModal";
 
@@ -11,7 +12,7 @@ const MyFavorite = () => {
   return (
     <section id="myfavorite">
       <div className="container">
-        <h2>My Favorite</h2>
+        <h2>My Favorites</h2>
         <p>
           I enjoy a lot of things in my life. Especially Photograph, Travel and
           Fishing.
@@ -39,6 +40,14 @@ const MyFavorite = () => {
           showModal={showModal}
           setShowModal={setShowModal}
         />
+
+        <Link
+          className="btn btn-primary btn-link"
+          to={"/"}
+          state={{ state: "return" }}
+        >
+          Home
+        </Link>
       </div>
     </section>
   );

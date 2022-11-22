@@ -55,7 +55,7 @@ const About = () => {
         </div>
         <div className="about_btn">
           <Link className="btn btn-primary" to={"/myfavorite"}>
-            My Favorite
+            My Favorites
           </Link>
         </div>
       </div>
