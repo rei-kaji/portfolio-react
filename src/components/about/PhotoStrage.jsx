@@ -8,7 +8,7 @@ for (let i = 1; i <= 37; i++) {
 
 const fishingImages = [];
 
-for (let i = 1; i <= 16; i++) {
+for (let i = 1; i <= 17; i++) {
   fishingImages.push(require(`../../assets/favorites/fishing/fishing${i}.jpg`));
 }
 
