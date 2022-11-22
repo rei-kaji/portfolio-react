@@ -11,7 +11,7 @@ const PortfolioGallery = (props) => {
         <h3>{props.title}</h3>
         <div className="link">
           <Link
-            className="btn btn-link"
+            className="btn btn-primary btn-link"
             to={"/portfolioDetail"}
             state={{ state: props }}
           >

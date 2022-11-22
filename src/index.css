@@ -12,17 +12,43 @@
 }
 
 :root {
-  /* --color-bg: #1f382d;
-  --color-bg-variant: #2c6c5c;
-  --color-primary: #4dffc1a7;
-  --color-primary-variant: rgba(101, 255, 77, 0.4); */
-
   --color-bg: #1f3438dc;
   --color-bg-variant: #2c616cc3;
   --color-primary: #7ff2f8b9;
   --color-primary-variant: rgba(77, 225, 255, 0.709);
+
+  /* Green Theme */
+  /* --color-bg: #2c7873;
+  --color-bg-variant: #04373b;
+  --color-primary: #6fb98f;
+  --color-primary-variant: #004455; */
+
+  /* Cute Theme */
+  /* --color-bg: #98dbc6;
+  --color-bg-variant: #f18d9ece;
+  --color-primary: #e6d72a;
+  --color-primary-variant: #5bc8ac; */
+
+  /* Dark Theme */
+  /* --color-bg: #011a27;
+  --color-bg-variant: #e6cf5a;
+  --color-primary: #e6a05a;
+  --color-primary-variant: #063852; */
+
+  /* Pastel Theme */
+  /* --color-bg: #c1e1dc;
+  --color-bg-variant: #ffccac;
+  --color-primary: #ffeb94;
+  --color-primary-variant: #fdd475; */
+
+  /* Greece Theme */
+  /* --color-bg: #2988bc;
+  --color-bg-variant: #f1dfca;
+  --color-primary: #e89f8b;
+  --color-primary-variant: #2f496e; */
+
   --color-white: #fff;
-  --color-light: rgba(255, 255, 255, 0.67);
+  --color-light: rgba(255, 255, 255, 0.875);
 
   --transition: all 400ms ease;
 
@@ -135,7 +161,7 @@ a:hover {
 
 .btn-primary {
   background-color: var(--color-primary);
-  color: var(--color-bg);
+  color: var(--color-bg-variant);
   border: none;
 }
 
@@ -144,7 +170,8 @@ a:hover {
   height: 2rem;
   padding: 0.1rem;
   text-align: center;
-  /* border: none; */
+  color: var(--color-bg-variant);
+  /* border: 1px solid var(--color-bg); */
 }
 
 .link {
