@@ -1,3 +1,8 @@
+#portfolio {
+  padding: 5rem 0;
+  background-color: rgba(206, 201, 201, 0.2);
+}
+
 .portfolio_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -27,11 +32,6 @@
   width: 100%;
 }
 
-#portfolioDetail h2 {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
 .portfolio_item h3 {
   margin-top: 1.2rem;
 }
@@ -43,6 +43,62 @@
   margin-bottom: 1rem;
   /* justify-content: center; */
   align-content: center;
+}
+
+/* ========== Feature Portfolio ========== */
+#featurePortfolio h2 {
+  /* text-decoration: underline;
+  text-decoration-color: var(--color-primary); */
+  /* border-bottom: 2px solid var(--color-primary); */
+  text-shadow: 2px 2px 3px silver;
+}
+
+#featurePortfolio .even,
+.uneven {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.5rem;
+  margin-bottom: 5rem;
+}
+
+/* #featurePortfolio .uneven .right {
+  grid-row: 1/2;
+} */
+
+/* #featurePortfolio .even,
+.uneven {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 5rem;
+} */
+
+#featurePortfolio .uneven .left {
+  order: 2;
+}
+
+#featurePortfolio img {
+  box-shadow: 0.8rem 0.8rem 0 #e56874;
+  /* background-color: black; */
+}
+
+#featurePortfolio .portfolio_explain {
+  margin-top: 7rem;
+}
+
+#featurePortfolio .portfolio_explain h3 {
+  color: var(--color-primary);
+  margin-top: 2rem;
+}
+
+#featurePortfolio .portfolio_explain p {
+  font-size: 1.5rem;
+}
+
+/* ========== Portfolio Detail ========== */
+
+#portfolioDetail h2 {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 #portfolioDetail {
@@ -70,12 +126,12 @@
 }
 
 .portfolioDetail_container .portfolioExplain h3 {
-  color: var(--color-light);
+  color: var(--color-primary);
   margin-top: 2rem;
 }
 
 .portfolioDetail_container .portfolioExplain p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .portfolioDetail_link {
@@ -93,6 +149,26 @@
     grid-template-columns: 1fr 1fr;
     gap: 1.2rem;
   }
+  #featurePortfolio .even,
+  .uneven {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  #featurePortfolio .even .left {
+    order: 2;
+  }
+
+  #featurePortfolio img {
+    box-shadow: 0.5rem 0.5rem 0 #e56874;
+    /* background-color: black; */
+  }
+
+  #featurePortfolio .portfolio_explain {
+    margin-top: 0;
+  }
+
   .portfolioDetail_container {
     grid-template-columns: 1fr;
   }

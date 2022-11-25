@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./navbar.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BsChatText } from "react-icons/bs";
-import { IoColorPaletteOutline } from "react-icons/io5";
+import { IoIosArrowDropdown, IoIosArrowDropup } from "react-icons/io";
 import { MdOutlineHomeWork } from "react-icons/md";
 import { GiFeather } from "react-icons/gi";
 import { Link, animateScroll as scroll } from "react-scroll";
@@ -78,7 +78,11 @@ const Navbar = () => {
             <BsChatText />
           </Link>
           <a onClick={colorHandler}>
-            <IoColorPaletteOutline className="color" />
+            {activeThemeNav ? (
+              <IoIosArrowDropup className="color" />
+            ) : (
+              <IoIosArrowDropdown className="color" />
+            )}
           </a>
         </div>
         {activeThemeNav && (

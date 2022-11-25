@@ -1,3 +1,35 @@
+const FeaturePortfolios = [
+  {
+    id: 1,
+    title: "Fitness App",
+    image: require("../../assets/fitness.png"),
+    github: "https://github.com/rei-kaji/fitness-app",
+    demo: "https://rei-fitness.netlify.app/",
+    language: ["React", "MUI", "RappidAPI", "HTML", "CSS"],
+    explain:
+      "Using RappidAPI. You can search and learn how to make your body strong.",
+  },
+  {
+    id: 2,
+    title: "Note with GraphCMS",
+    image: require("../../assets/note.png"),
+    github: "https://github.com/rei-kaji/blog_with_MUI-and-GraphCMS",
+    demo: "https://blog-with-mui-and-graphcms.netlify.app",
+    language: [
+      "React",
+      "TypeScript",
+      "MUI",
+      "HTML",
+      "CSS",
+      "Scss",
+      "GraphQL",
+      "GraphCMS",
+    ],
+    explain:
+      "This web app was created with MUI and GraphCMS. It implements a button to switch to dark mode and display a new posting function in the modal.",
+  },
+];
+
 const PortfolioGroup = [
   {
     title: "Fitness App",
@@ -71,4 +103,4 @@ const PortfolioGroup = [
   // },
 ];
 
-export default PortfolioGroup;
+export { PortfolioGroup, FeaturePortfolios };
