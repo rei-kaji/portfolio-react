@@ -80,6 +80,7 @@ body {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  position: relative;
 }
 
 h1,
@@ -168,11 +169,51 @@ a:hover {
 
 .btn-link {
   width: 100%;
+  max-width: 12rem;
   height: 2rem;
   padding: 0.1rem;
   text-align: center;
   color: var(--color-bg-variant);
   /* border: 1px solid var(--color-bg); */
+}
+
+.cards {
+  position: relative;
+  overflow: hidden;
+}
+
+.hoverCard::before {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  bottom: 0;
+  margin: auto 0;
+  width: 100px;
+  height: 200%;
+  content: "";
+  background: linear-gradient(
+    to right,
+    #fff,
+    #fff 10%,
+    transparent 10%,
+    transparent 20%,
+    #fff 20%,
+    #fff 90%,
+    transparent 90%,
+    transparent 94%,
+    #fff 94%
+  );
+  opacity: 0.3;
+  transform: translate(-50%) rotate(45deg);
+  transition: left 0.4s ease-in, transform 0.4s ease-in;
+}
+
+/* hover */
+.hoverCard:hover::before {
+  left: 150%;
+  border-radius: 1rem;
+  transform: translate(50%) rotate(45deg);
+  transition-timing-function: ease-out, ease-out;
 }
 
 .link {
@@ -195,6 +236,23 @@ textarea::placeholder,
   font-size: 1.3rem;
 }
 
+.go_home {
+  display: none;
+}
+
+.returnButton {
+  fill: var(--color-primary);
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  width: 3rem;
+  height: 3rem;
+}
+
+.returnButton:hover {
+  transform: scale(1.2);
+}
+
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
 
 @media screen and (max-width: 1024px) {
@@ -210,6 +268,12 @@ textarea::placeholder,
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 
 @media screen and (max-width: 600px) {
+  .go_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .container {
     width: var(--container-width-sm);
   }

@@ -30,28 +30,33 @@ const Experience = () => {
       <h2>My Experience</h2>
 
       <div className="container experience_container">
-        <div className="experience_frontend">
-          <h3>Frontend Development</h3>
-          <div className="experience_content">
-            {frontendSkills.map((skills) => {
-              return (
-                <div key={skills.name}>
-                  <Skills name={skills.name} experience={skills.experience} />
-                </div>
-              );
-            })}
+        <div className="cards">
+          <div className="hoverCard experience_frontend">
+            <h3>Frontend Development</h3>
+            <div className="experience_content">
+              {frontendSkills.map((skills) => {
+                return (
+                  <div key={skills.name}>
+                    <Skills name={skills.name} experience={skills.experience} />
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
-        <div className="experience_backend">
-          <h3>Backend Development</h3>
-          <div className="experience_content">
-            {backendSkills.map((skills) => {
-              return (
-                <div key={skills.name}>
-                  <Skills name={skills.name} experience={skills.experience} />
-                </div>
-              );
-            })}
+
+        <div className="cards">
+          <div className="hoverCard experience_backend">
+            <h3>Backend Development</h3>
+            <div className="experience_content">
+              {backendSkills.map((skills) => {
+                return (
+                  <div key={skills.name}>
+                    <Skills name={skills.name} experience={skills.experience} />
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

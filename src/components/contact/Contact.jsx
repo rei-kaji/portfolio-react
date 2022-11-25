@@ -1,8 +1,9 @@
 import React, { useRef } from "react";
 import "./contact.css";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import emailjs from "@emailjs/browser";
+import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const Contact = () => {
   const form = useRef();
@@ -40,37 +41,38 @@ const Contact = () => {
             <AiOutlineMail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>12369ka@gmail.com</h5>
-            <a
-              href="mailto:12369ka@gmail.com"
-              target={"_blank"}
-              rel="noreferrer"
+            <p>copy email adress</p>
+            <CopyToClipboard
+              className="a_link"
+              text={"12369ka@gmail.com"}
+              onCopy={() => alert(`Copied email adress!`)}
             >
-              Send a message
-            </a>
+              <p></p>
+            </CopyToClipboard>
           </article>
           <article className="contact_option">
-            <BsInstagram className="contact_option-icon" />
-            <h4>Instagram</h4>
-            <h5>@rei_kaji0</h5>
+            <BsGithub className="contact_option-icon" />
+            <h4>Github</h4>
+            <h5>rei-kaji</h5>
+            <p>open my profile</p>
             <a
-              href="https://www.instagram.com/rei_kaji0/"
+              href="https://github.com/rei-kaji"
               target={"_blank"}
               rel="noreferrer"
-            >
-              Send a message
-            </a>
+              className="a_link"
+            ></a>
           </article>
           <article className="contact_option">
             <BsLinkedin className="contact_option-icon" />
             <h4>LinkedIn</h4>
             <h5>Rei Kajiwara</h5>
+            <p>open my profile</p>
             <a
               href="https://www.linkedin.com/in/reikaji"
               target={"_blank"}
               rel="noreferrer"
-            >
-              Send a message
-            </a>
+              className="a_link"
+            ></a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

@@ -45,11 +45,12 @@
   transition: var(--transition);
 }
 
-.about_card:hover {
+/* Hover is for the button that can be clicked  */
+/* .about_card:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
-}
+} */
 
 .about_icon {
   color: var(--color-primary);

@@ -1,5 +1,8 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import returnButton from "../../assets/return1.svg";
+
+// const returnButton = require("../../assets/return.svg");
 
 const PortfolioDetail = () => {
   const location = useLocation();
@@ -7,6 +10,9 @@ const PortfolioDetail = () => {
   return (
     <section id="portfolioDetail">
       <div className="container">
+        <Link className="returnButton" to={"/"} state={{ state: "return" }}>
+          <img src={returnButton} alt="" />
+        </Link>
         <h2>{portfolioInfo.title}</h2>
         <div className="portfolioDetail_container">
           <div className="portfolioExplain">
@@ -46,7 +52,8 @@ const PortfolioDetail = () => {
             ></iframe> */}
           </div>
         </div>
-        <div className="portfolioDetail_link">
+
+        <div className="go_home">
           <Link
             className="btn btn-primary btn-link"
             to={"/"}

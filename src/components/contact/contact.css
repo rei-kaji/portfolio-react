@@ -12,6 +12,7 @@
 }
 
 .contact_option {
+  position: relative;
   background: var(--color-bg-variant);
   padding: 1.2rem;
   border-radius: 1.2rem;
@@ -30,10 +31,24 @@
   margin-bottom: 0.5rem;
 }
 
-.contact_option a {
+.contact_option p {
+  color: var(--color-primary);
+  font-size: 1.3rem;
+}
+
+/* .contact_option a {
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 1.3rem;
+} */
+
+.contact_option .a_link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* ========== FORM ========== */

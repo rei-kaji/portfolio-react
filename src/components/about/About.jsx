@@ -20,25 +20,36 @@ const About = () => {
           </div>
           <div className="about_content">
             <div className="about_cards">
-              <article className="about_card">
-                <FaAward className="about_icon" />
-                <h3>Experience</h3>
-                <small>{experienceYears}+ Years Working</small>
+              <article className="cards about_card">
+                <div className="hoverCard">
+                  <FaAward className="about_icon" />
+                  <h3>Experience</h3>
+                  <small>{experienceYears}+ Years Working</small>
+                </div>
               </article>
-              <article className="about_card">
-                <FiUsers className="about_icon" />
-                <h3>Clients</h3>
-                <small>10+ Worldwide</small>
+
+              <article className="cards about_card">
+                <div className="hoverCard">
+                  <FiUsers className="about_icon" />
+                  <h3>Clients</h3>
+                  <small>10+ Worldwide</small>
+                </div>
               </article>
-              <article className="about_card">
-                <FiFolder className="about_icon" />
-                <h3>Projects</h3>
-                <small>25+ Completed</small>
+
+              <article className="cards about_card">
+                <div className="hoverCard">
+                  <FiFolder className="about_icon" />
+                  <h3>Projects</h3>
+                  <small>25+ Completed</small>
+                </div>
               </article>
-              <article className="about_card">
-                <FaSchool className="about_icon" />
-                <h3>Educational</h3>
-                <small>Web development Diploma</small>
+
+              <article className="cards about_card">
+                <div className="hoverCard">
+                  <FaSchool className="about_icon" />
+                  <h3>Educational</h3>
+                  <small>Web development Diploma</small>
+                </div>
               </article>
             </div>
           </div>
@@ -55,7 +66,7 @@ const About = () => {
         </div>
         <div className="about_btn">
           <Link className="btn btn-primary" to={"/myfavorite"}>
-            My Favorites
+            My Favorite Photo Albums
           </Link>
         </div>
       </div>

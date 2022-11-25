@@ -12,11 +12,11 @@
   transition: var(--transition);
 }
 
-.experience_container > div:hover {
+/* .experience_container > div:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
   cursor: default;
-}
+} */
 
 .experience_container > div h3 {
   text-align: center;

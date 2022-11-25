@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import PhotoGallery from "./PhotoGallery";
 import PhotoModal from "./PhotoModal";
+import returnButton from "../../assets/return1.svg";
 
 const MyFavorite = () => {
   const [showModal, setShowModal] = useState(false);
@@ -12,6 +13,9 @@ const MyFavorite = () => {
   return (
     <section id="myfavorite">
       <div className="container">
+        <Link className="returnButton" to={"/"} state={{ state: "return" }}>
+          <img src={returnButton} alt="" />
+        </Link>
         <h2>My Favorites</h2>
         <p>
           I enjoy a lot of things in my life. Especially Photograph, Travel and
@@ -41,13 +45,15 @@ const MyFavorite = () => {
           setShowModal={setShowModal}
         />
 
-        <Link
-          className="btn btn-primary btn-link"
-          to={"/"}
-          state={{ state: "return" }}
-        >
-          Home
-        </Link>
+        <div className="go_home">
+          <Link
+            className="btn btn-primary btn-link"
+            to={"/"}
+            state={{ state: "return" }}
+          >
+            Home
+          </Link>
+        </div>
       </div>
     </section>
   );
