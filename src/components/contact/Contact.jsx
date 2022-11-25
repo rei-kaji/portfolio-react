@@ -28,6 +28,7 @@ const Contact = () => {
       );
 
     e.target.reset();
+    alert("Success sent your message!");
   };
 
   return (
