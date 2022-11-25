@@ -14,7 +14,35 @@ nav {
   backdrop-filter: blur(15px);
   justify-content: center;
   align-content: center;
+  flex-direction: column;
 }
+
+.navLinkGroup {
+  display: flex;
+  justify-content: center;
+}
+
+.color {
+  color: pink;
+}
+
+/* .themeNav {
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  padding: 0.7rem 1.7rem;
+  z-index: 1;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 5rem;
+  display: flex;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+  justify-content: center;
+  align-content: center;
+} */
 
 nav a {
   display: flex;

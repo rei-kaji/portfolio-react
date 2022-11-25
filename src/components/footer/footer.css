@@ -18,8 +18,7 @@ small {
   display: inline-block;
 }
 
-.permalinks,
-.change_color {
+.permalinks {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

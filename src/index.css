@@ -278,6 +278,10 @@ textarea::placeholder,
     align-items: center;
   }
 
+  .go_home .btn-link {
+    max-width: 20rem;
+  }
+
   .container {
     width: var(--container-width-sm);
   }

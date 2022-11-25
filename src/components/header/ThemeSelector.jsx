@@ -60,7 +60,7 @@ const ThemeSelector = () => {
             onChange={() => changeTheme("DarkBlue")}
           />
           <label htmlFor="DarkBlue" className="darkblue">
-            Cool
+            {/* Cool */}
           </label>
         </li>
         <li>
@@ -71,7 +71,7 @@ const ThemeSelector = () => {
             onChange={() => changeTheme("Dark")}
           />
           <label htmlFor="Dark" className="dark">
-            Bee
+            {/* Bee */}
           </label>
         </li>
         <li>
@@ -82,7 +82,7 @@ const ThemeSelector = () => {
             onChange={() => changeTheme("Green")}
           />
           <label htmlFor="Green" className="green">
-            Forest
+            {/* Forest */}
           </label>
         </li>
         <li>
@@ -93,7 +93,7 @@ const ThemeSelector = () => {
             onChange={() => changeTheme("Cute")}
           />
           <label htmlFor="Cute" className="cute">
-            Cute
+            {/* Cute */}
           </label>
         </li>
         <li>
@@ -104,7 +104,7 @@ const ThemeSelector = () => {
             onChange={() => changeTheme("Pastel")}
           />
           <label htmlFor="Pastel" className="pastel">
-            Pastel
+            {/* Pastel */}
           </label>
         </li>
         <li>
@@ -115,7 +115,7 @@ const ThemeSelector = () => {
             onChange={() => changeTheme("Greece")}
           />
           <label htmlFor="Greece" className="greece">
-            Greece
+            {/* Greece */}
           </label>
         </li>
       </ul>

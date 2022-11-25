@@ -93,14 +93,15 @@ header {
   display: flex;
   gap: 0.5rem;
   right: 0rem;
-  top: 0;
+  top: 1.2rem;
 }
 
-/* .selector {
+.change_color {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
-} */
+  gap: 1rem;
+}
 
 .change_color input {
   display: none;
@@ -120,10 +121,16 @@ header {
 
 .darkblue {
   color: rgb(14, 168, 219);
+  width: 1rem;
+  height: 1rem;
+  background-color: rgb(14, 168, 219);
 }
 
 .dark {
   color: yellow;
+  width: 1rem;
+  height: 1rem;
+  background-color: yellow;
 }
 
 .dark:checked {
@@ -135,18 +142,30 @@ header {
 
 .green {
   color: rgb(43, 234, 43);
+  width: 1rem;
+  height: 1rem;
+  background-color: rgb(43, 234, 43);
 }
 
 .cute {
   color: pink;
+  width: 1rem;
+  height: 1rem;
+  background-color: pink;
 }
 
 .pastel {
   color: rgb(53, 252, 242);
+  width: 1rem;
+  height: 1rem;
+  background-color: rgb(53, 252, 242);
 }
 
 .greece {
   color: white;
+  width: 1rem;
+  height: 1rem;
+  background-color: white;
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
