@@ -268,6 +268,10 @@ textarea::placeholder,
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 
 @media screen and (max-width: 600px) {
+  .returnButton {
+    display: none;
+  }
+
   .go_home {
     display: flex;
     justify-content: center;
