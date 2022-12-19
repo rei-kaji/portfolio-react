@@ -2,7 +2,7 @@ const FeaturePortfolios = [
   {
     id: 1,
     title: "Fake Mario Maker",
-    image: require("../../assets/FakeMario.png"),
+    image: require("../../assets/FakeMarioImage.png"),
     github: "https://github.com/rei-kaji/FakeMario",
     demo: require("../../assets/FakeMarioMovie.mov"),
     language: ["C#", "Unity"],
