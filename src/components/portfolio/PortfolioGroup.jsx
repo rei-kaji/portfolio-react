@@ -1,13 +1,13 @@
 const FeaturePortfolios = [
   {
     id: 1,
-    title: "Fitness App",
-    image: require("../../assets/fitness.png"),
-    github: "https://github.com/rei-kaji/fitness-app",
-    demo: "https://rei-fitness.netlify.app/",
-    language: ["React", "MUI", "RappidAPI", "HTML", "CSS"],
+    title: "Fake Mario Maker",
+    image: require("../../assets/FakeMario.png"),
+    github: "https://github.com/rei-kaji/FakeMario",
+    demo: require("../../assets/FakeMario.mov"),
+    language: ["C#", "Unity"],
     explain:
-      "Using RappidAPI. You can search and learn how to make your body strong.",
+      "This is an application that allows you to freely create and play with fields and enemies like MarioMaker.",
   },
   {
     id: 2,
