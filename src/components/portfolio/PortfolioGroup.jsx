@@ -5,7 +5,7 @@ const FeaturePortfolios = [
     image: require("../../assets/FakeMarioImage.png"),
     github: "https://github.com/rei-kaji/FakeMario",
     demo: require("../../assets/FakeMarioMovie.mov"),
-    language: ["C#", "Unity"],
+    language: ["C#", "Unity", "Visual Studio"],
     explain:
       "This is an application that allows you to freely create and play with fields and enemies like MarioMaker.",
   },
