@@ -57,7 +57,7 @@ const About = () => {
 
         <div className="about_explain">
           <p>
-            Software developer specialized in C#, Java, React and SQL
+            Fullstack developer specialized in React, C#, Java and SQL
             development. <br />I have {experienceYears}+ years of experience
             developing complex applications and manage projects. <br />
             I’m looking to work with small or large teams in agile startup
