@@ -9,18 +9,18 @@ const frontendSkills = [
   { name: "HTML", experience: experienceYears + "+ Years" },
   { name: "CSS", experience: experienceYears + "+ Years" },
   { name: "JavaScript", experience: experienceYears - 1 + "+ Years" },
-  { name: "React", experience: experienceYears - 3 + "+ Years" },
+  { name: "React", experience: experienceYears - 4 + "+ Years" },
   { name: "TypeScript", experience: experienceYears - 4 + "+ Years" },
-  { name: "MUI", experience: experienceYears - 3 + "+ Years" },
+  { name: "MUI", experience: experienceYears - 4 + "+ Years" },
 ];
 
 const backendSkills = [
   { name: "C#", experience: experienceYears + "+ Years" },
   { name: "Java", experience: experienceYears + "+ Years" },
   { name: "SQL", experience: experienceYears + "+ Years" },
-  { name: "MongoDB", experience: experienceYears - 2 + "+ Years" },
   { name: "Firebase", experience: experienceYears - 3 + "+ Years" },
-  { name: "Python", experience: experienceYears - 3 + "+ Years" },
+  { name: "MongoDB", experience: experienceYears - 4 + "+ Years" },
+  { name: "Python", experience: experienceYears - 4 + "+ Years" },
 ];
 
 const Experience = () => {
