@@ -41,22 +41,13 @@ const PortfolioGroup = [
       "Using RappidAPI. You can search and learn how to make your body strong.",
   },
   {
-    title: "Note with GraphCMS",
-    image: require("../../assets/note.png"),
-    github: "https://github.com/rei-kaji/blog_with_MUI-and-GraphCMS",
-    demo: "https://blog-with-mui-and-graphcms.netlify.app",
-    language: [
-      "React",
-      "TypeScript",
-      "MUI",
-      "HTML",
-      "CSS",
-      "Scss",
-      "GraphQL",
-      "GraphCMS",
-    ],
+    title: "Event BBS",
+    image: require("../../assets/event-bbs.jpg"),
+    github: "https://github.com/rei-kaji/event-bbs",
+    demo: "https://event-bbs.web.app",
+    language: ["React", "Firebase", "MUI", "HTML", "CSS"],
     explain:
-      "This web app was created with MUI and GraphCMS. It implements a button to switch to dark mode and display a new posting function in the modal.",
+      "In Vancouver, people gather at parks and freely form teams to play soccer or basketball, but it is often the case that you cannot play the game even after you arrive because you do not know if anyone is currently there or not until you get there. My friend and I created this service to solve this problem.",
   },
   {
     title: "Portfolio in full scratch",
@@ -66,15 +57,6 @@ const PortfolioGroup = [
     language: ["React", "MUI", "HTML", "CSS"],
     explain:
       "This Web site! Features include full-scratch overall creation, floating menus, and CSS animations implemented.",
-  },
-  {
-    title: "Event BBS",
-    image: require("../../assets/event-bbs.jpg"),
-    github: "https://github.com/rei-kaji/event-bbs",
-    demo: "https://event-bbs.web.app",
-    language: ["React", "Firebase", "MUI", "HTML", "CSS"],
-    explain:
-      "In Vancouver, people gather at parks and freely form teams to play soccer or basketball, but it is often the case that you cannot play the game even after you arrive because you do not know if anyone is currently there or not until you get there. My friend and I created this service to solve this problem.",
   },
   {
     title: "Pokemon Picture Book",
@@ -93,14 +75,14 @@ const PortfolioGroup = [
     explain:
       "It was created using the Firebase user authentication system and FireStorage. It can comunicate with your friends on real time.",
   },
-  // {
-  //   title: "Film Dictionary",
-  //   image: require("../../assets/academy.jpeg"),
-  //   github: "https://github.com/rei-kaji/film-dictionary",
-  //   demo: "https://film-dictionary.netlify.app/",
-  //   language: ["React", "omdbAPI", "HTML", "CSS"],
-  //   explain: "I love movies. So I created a web app related to movies.",
-  // },
+  {
+    title: "Film Dictionary",
+    image: require("../../assets/academy.jpeg"),
+    github: "https://github.com/rei-kaji/film-dictionary",
+    demo: "https://film-dictionary.netlify.app/",
+    language: ["React", "omdbAPI", "HTML", "CSS"],
+    explain: "I love movies. So I created a web app related to movies.",
+  },
 ];
 
 export { PortfolioGroup, FeaturePortfolios };
