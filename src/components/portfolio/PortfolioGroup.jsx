@@ -1,13 +1,21 @@
 const FeaturePortfolios = [
   {
     id: 1,
-    title: "Fake Mario Maker",
-    image: require("../../assets/FakeMarioImage.png"),
-    github: "https://github.com/rei-kaji/FakeMario",
-    demo: require("../../assets/FakeMarioMovie.mov"),
-    language: ["C#", "Unity", "Visual Studio"],
+    title: "AI Image Generator",
+    image: require("../../assets/ai-image-generator.png"),
+    github: "https://github.com/rei-kaji/AI-Image-Generator",
+    demo: "https://rei-ai-image-generator.netlify.app/",
+    language: [
+      "React",
+      "Node.js",
+      "Express",
+      "Tailwind",
+      "OpenAI",
+      "Cloudinary",
+      "MongoDB",
+    ],
     explain:
-      "This is an application that allows you to freely create and play with fields and enemies like MarioMaker.",
+      "This is an auto-image generator with AI. The front end was created with React and Tailwind, and the back end used Express and MongoDB. It uses OpenAI's Image Generator API to display images created based on the words entered. By storing only the images in Cloudinary, I accomplished to speed up the data retrieval from MongoDB.",
   },
   {
     id: 2,
@@ -67,15 +75,6 @@ const PortfolioGroup = [
     explain: "You can check all of Pokemon! It was created with PokeAPI.",
   },
   {
-    title: "Chat App",
-    image: require("../../assets/chat.png"),
-    github: "https://github.com/rei-kaji/chat-app",
-    demo: "https://rei-chat-app.netlify.app",
-    language: ["React", "TypeScript", "Firebase", "MUI", "HTML", "CSS"],
-    explain:
-      "It was created using the Firebase user authentication system and FireStorage. It can comunicate with your friends on real time.",
-  },
-  {
     title: "Film Dictionary",
     image: require("../../assets/academy.jpeg"),
     github: "https://github.com/rei-kaji/film-dictionary",
@@ -83,6 +82,24 @@ const PortfolioGroup = [
     language: ["React", "omdbAPI", "HTML", "CSS"],
     explain: "I love movies. So I created a web app related to movies.",
   },
+  {
+    title: "Fake Mario Maker",
+    image: require("../../assets/FakeMarioImage.png"),
+    github: "https://github.com/rei-kaji/chat-app",
+    demo: require("../../assets/FakeMarioMovie.mov"),
+    language: ["C#", "Unity", "Visual Studio"],
+    explain:
+      "This is an application that allows you to freely create and play with fields and enemies like MarioMaker.",
+  },
+  // {
+  //   title: "Chat App",
+  //   image: require("../../assets/chat.png"),
+  //   github: "https://github.com/rei-kaji/chat-app",
+  //   demo: "https://rei-chat-app.netlify.app",
+  //   language: ["React", "TypeScript", "Firebase", "MUI", "HTML", "CSS"],
+  //   explain:
+  //     "It was created using the Firebase user authentication system and FireStorage. It can comunicate with your friends on real time.",
+  // },
 ];
 
 export { PortfolioGroup, FeaturePortfolios };
