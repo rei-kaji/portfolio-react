@@ -50,6 +50,7 @@
 
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.875);
+  --color-gray: rgb(231, 225, 225);
 
   --transition: all 400ms ease;
 

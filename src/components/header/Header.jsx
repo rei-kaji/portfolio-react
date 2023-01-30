@@ -10,13 +10,13 @@ const Header = () => {
     <header id="home" className="container header_container">
       <ThemeSelector />
       <h2>Hello, I'm</h2>
-      <h1 className="header_name">Rei Kajiwara</h1>
+      <h2 className="header_name">Rei Kajiwara</h2>
       <h2 className="job_name">Fullstack Developer</h2>
       <CTA />
       <HeaderSocial />
 
       <a href="#contact" className="scroll_down">
-        Scroll Down
+        Contact Me
       </a>
     </header>
   );

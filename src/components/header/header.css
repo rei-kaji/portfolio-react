@@ -23,14 +23,16 @@ header {
 }
 
 .header_name {
-  font-size: 12rem;
+  font-size: 10rem;
+  /* color: var(--color-gray); */
   text-shadow: 0 0 10px #ffffff, 0 0 15px var(--color-primary);
-  animation: zoomFade 2s ease-in-out infinite;
+  animation: zoomFade 3.5s ease-in-out infinite;
 }
-/* 
+
 .job_name {
+  font-size: 6rem;
   color: var(--color-primary);
-} */
+}
 
 /* ========== CTA ========== */
 .cta {
@@ -58,6 +60,10 @@ header {
   background: var(--color-primary);
 }
 
+.header_socials a {
+  font-size: 2rem;
+}
+
 /* ========== ME ========== */
 .me {
   background: linear-gradient(var(--color-primary), transparent);
@@ -83,7 +89,7 @@ header {
   bottom: 9rem;
   transform: rotate(90deg);
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 /* ========== Change Color Button ========== */
@@ -176,10 +182,19 @@ header {
   }
 
   .header_name {
-    font-size: 5rem;
+    font-size: 4rem;
   }
 
-  .header_container .color_selector {
+  .job_name {
+    font-size: 3rem;
+  }
+
+  .header_container {
+    gap: 0.2rem;
+    height: 35rem;
+  }
+
+  .color_selector {
     gap: 0.2rem;
   }
 }
