@@ -9,9 +9,9 @@ const frontendSkills = [
   { name: "HTML", experience: experienceYears + "+ Years" },
   { name: "CSS", experience: experienceYears + "+ Years" },
   { name: "JavaScript", experience: experienceYears - 1 + "+ Years" },
-  { name: "React", experience: experienceYears - 3.5 + "+ Years" },
+  { name: "React.js", experience: experienceYears - 3 + "+ Years" },
+  { name: "Next.js", experience: experienceYears - 4 + "+ Years" },
   { name: "TypeScript", experience: experienceYears - 4 + "+ Years" },
-  { name: "MUI", experience: experienceYears - 4 + "+ Years" },
 ];
 
 const backendSkills = [
