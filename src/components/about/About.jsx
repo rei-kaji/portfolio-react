@@ -56,12 +56,30 @@ const About = () => {
         </div>
 
         <div className="about_explain">
-          <p>
+          {/* <p>
             Fullstack developer specialized in React, C#, Java and SQL
             development. <br />I have {experienceYears}+ years of experience
             developing complex applications and manage projects. <br />
             I’m looking to work with small or large teams in agile startup
             environments.
+          </p> */}
+          {/* <p>
+            As a highly skilled full-stack developer with expertise in React,
+            C#, Java, and SQL, I bring {experienceYears}+ years of experience
+            developing sophisticated applications and managing successful
+            projects. I excel in an agile startup environment and am eager to
+            join a dynamic team, whether small or large, to continue delivering
+            exceptional results. I have a diverse skill set that allows me to
+            tackle a range of projects with confidence and creativity. I am
+            eager to bring my experience and passion for web development to your
+            organization.
+          </p> */}
+          <p>
+            Full-stack developer with {experienceYears}+ years of experience in
+            React, C#, Java, and SQL. <br />
+            Adept at developing complex applications and managing projects.
+            Passionate about web development and seeking opportunities in agile
+            startup environments to continue delivering exceptional results.
           </p>
         </div>
         <div className="about_btn">
