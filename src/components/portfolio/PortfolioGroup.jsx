@@ -15,7 +15,7 @@ const FeaturePortfolios = [
       "MongoDB",
     ],
     explain:
-      "This is an auto-image generator with AI. The front end was created with React and Tailwind, and the back end used Express and MongoDB. It uses OpenAI's Image Generator API to display images created based on the words entered. By storing only the images in Cloudinary, I accomplished to speed up the data retrieval from MongoDB.",
+      "This website is an AI-powered auto-image generator, utilizing cutting-edge technology to create images based on user inputs. The frontend of the website is built using React and Tailwind, while the backend leverages the power of Express and MongoDB. With the integration of OpenAI's Image Generator API, the site generates images in real-time, and with the use of Cloudinary for image storage, it speeds up data retrieval from MongoDB for a seamless user experience.",
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const FeaturePortfolios = [
       "GraphCMS",
     ],
     explain:
-      "This web app was created with MUI and GraphCMS. It implements a button to switch to dark mode and display a new posting function in the modal.",
+      "This is an elegantly designed web application that was built using MUI and GraphCMS. It features a user-friendly button that enables users to switch to dark mode and an intuitive modal that showcases a new posting function. This app is optimized for user experience and engagement.",
   },
 ];
 
