@@ -75,12 +75,13 @@ const PortfolioGroup = [
     explain: "You can check all of Pokemon! It was created with PokeAPI.",
   },
   {
-    title: "Film Dictionary",
-    image: require("../../assets/academy.jpeg"),
-    github: "https://github.com/rei-kaji/film-dictionary",
-    demo: "https://film-dictionary.netlify.app/",
-    language: ["React", "omdbAPI", "HTML", "CSS"],
-    explain: "I love movies. So I created a web app related to movies.",
+    title: "React Native App",
+    image: require("../../assets/tesla.png"),
+    github: "https://github.com/rei-kaji/react-native-app1",
+    demo: "https://appetize.io/embed/8bnmakzrptf1hv9dq7v7bnteem?autoplay=false&debug=true&device=iphone12&deviceColor=black&embed=true&orientation=portrait&scale=73&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXDevMenuDisableAutoLaunch%22%3Atrue%2C%22EXKernelLaunchUrlDefaultsKey%22%3A%22exp%3A%2F%2Fexp.host%2F%40rei_kaji%2F5880dd%2BiYdHZWxq0C%22%2C%22EXKernelDisableNuxDefaultsKey%22%3Atrue%7D",
+    language: ["React Native", "EXPO"],
+    explain:
+      "This application is a copy of the Tesla website and does not allow you to actually purchase a car. It is also not affiliated with Tesla. This application was created for React Native and Expo learning purposes.",
   },
   {
     title: "Fake Mario Maker",
@@ -99,6 +100,14 @@ const PortfolioGroup = [
   //   language: ["React", "TypeScript", "Firebase", "MUI", "HTML", "CSS"],
   //   explain:
   //     "It was created using the Firebase user authentication system and FireStorage. It can comunicate with your friends on real time.",
+  // },
+  // {
+  //   title: "Film Dictionary",
+  //   image: require("../../assets/academy.jpeg"),
+  //   github: "https://github.com/rei-kaji/film-dictionary",
+  //   demo: "https://film-dictionary.netlify.app/",
+  //   language: ["React", "omdbAPI", "HTML", "CSS"],
+  //   explain: "I love movies. So I created a web app related to movies.",
   // },
 ];
 
