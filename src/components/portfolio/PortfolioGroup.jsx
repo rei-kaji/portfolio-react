@@ -4,7 +4,7 @@ const FeaturePortfolios = [
     title: "3D Portfolio",
     image: require("../../assets/3dportfolio.png"),
     github: "https://github.com/rei-kaji/portfolio-3d-threejs.git",
-    demo: "https://rei-portfolio-threejs.netlify.app/",
+    demo: "https://rei-portfolio.netlify.app/",
     language: ["React", "Three.js", "Tailwind", "HTML", "CSS"],
     explain:
       "This portfolio website showcases 3D displays created using Three.js. Users can enjoy viewing PC models and shooting stars that appear to be floating within the website. The website utilizes several advanced techniques, such as elements that dynamically appear as the user scrolls down the page. As the developer, I am excited to present this project as it represents a new level of creativity and technical skill that I have not previously demonstrated. I hope visitors will appreciate the unique visual experience and find inspiration in the implementation of these innovative techniques.",
@@ -52,7 +52,7 @@ const PortfolioGroup = [
     title: "Portfolio in full scratch",
     image: require("../../assets/portfolio.png"),
     github: "https://github.com/rei-kaji/portfolio-react",
-    demo: "https://rei-portfolio.netlify.app/#home",
+    demo: "https://rei-portfolio-2.netlify.app/#home",
     language: ["React", "MUI", "HTML", "CSS"],
     explain:
       "This Web site! Features include full-scratch overall creation, floating menus, and CSS animations implemented.",
