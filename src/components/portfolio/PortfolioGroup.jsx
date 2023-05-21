@@ -11,25 +11,33 @@ const FeaturePortfolios = [
   },
   {
     id: 2,
-    title: "AI Image Generator",
-    image: require("../../assets/ai-image-generator.png"),
-    github: "https://github.com/rei-kaji/AI-Image-Generator",
-    demo: "https://rei-ai-image-generator.netlify.app/",
+    title: "Netflix Clone",
+    image: require("../../assets/reiflix.png"),
+    github: "https://github.com/rei-kaji/netflix-clone",
+    demo: "https://reiflix-movie.vercel.app/",
     language: [
-      "React",
+      "Next.js",
       "Node.js",
       "Express",
       "Tailwind",
-      "OpenAI",
-      "Cloudinary",
+      "TypeScript",
       "MongoDB",
     ],
     explain:
-      "This website is an AI-powered auto-image generator, utilizing cutting-edge technology to create images based on user inputs. The frontend of the website is built using React and Tailwind, while the backend leverages the power of Express and MongoDB. With the integration of OpenAI's Image Generator API, the site generates images in real-time, and with the use of Cloudinary for image storage, it speeds up data retrieval from MongoDB for a seamless user experience.",
+      "This app is a clone of the Netflix. It uses Next.js, TypeScript, MongoDB, zustand, tailwind and swr to create a Netflix clone. You can watch movies and add them to your watchlist.",
   },
 ];
 
 const PortfolioGroup = [
+  {
+    title: "Story Generator",
+    image: require("../../assets/storygenerator.png"),
+    github: "https://github.com/rei-kaji/Story-Generator.git",
+    demo: "https://story-generator.vercel.app/auth/login",
+    language: ["Next.js", "MUI", "OpenAI", "MongoDB", "Tailwind"],
+    explain:
+      "This app uses OpenAI's API to generate a story based on a title, genre, and keywords. It also automatically generates images based on the keywords. It's a powerful tool for storytellers, novelists, filmmakers, and game developers.",
+  },
   {
     title: "Fitness App",
     image: require("../../assets/fitness.png"),
@@ -93,14 +101,31 @@ const PortfolioGroup = [
     explain:
       "This is an elegantly designed web application that was built using MUI and GraphCMS. It features a user-friendly button that enables users to switch to dark mode and an intuitive modal that showcases a new posting function. This app is optimized for user experience and engagement.",
   },
-  // {
-  //   title: "Pokemon Picture Book",
-  //   image: require("../../assets/pokemon.png"),
-  //   github: "https://github.com/rei-kaji/pokemon-app",
-  //   demo: "https://pokemon-picture-book.netlify.app/",
-  //   language: ["React", "pokeAPI", "HTML", "CSS"],
-  //   explain: "You can check all of Pokemon! It was created with PokeAPI.",
-  // },
+  {
+    title: "AI Image Generator",
+    image: require("../../assets/ai-image-generator.png"),
+    github: "https://github.com/rei-kaji/AI-Image-Generator",
+    demo: "https://rei-ai-image-generator.netlify.app/",
+    language: [
+      "React",
+      "Node.js",
+      "Express",
+      "Tailwind",
+      "OpenAI",
+      "Cloudinary",
+      "MongoDB",
+    ],
+    explain:
+      "This website is an AI-powered auto-image generator, utilizing cutting-edge technology to create images based on user inputs. The frontend of the website is built using React and Tailwind, while the backend leverages the power of Express and MongoDB. With the integration of OpenAI's Image Generator API, the site generates images in real-time, and with the use of Cloudinary for image storage, it speeds up data retrieval from MongoDB for a seamless user experience.",
+  },
+  {
+    title: "Pokemon Picture Book",
+    image: require("../../assets/pokemon.png"),
+    github: "https://github.com/rei-kaji/pokemon-app",
+    demo: "https://pokemon-picture-book.netlify.app/",
+    language: ["React", "pokeAPI", "HTML", "CSS"],
+    explain: "You can check all of Pokemon! It was created with PokeAPI.",
+  },
   // {
   //   title: "Film Dictionary",
   //   image: require("../../assets/academy.jpeg"),

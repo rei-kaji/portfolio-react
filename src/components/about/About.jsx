@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import Me from "../../assets/face2.png";
+import Me from "../../assets/montreal.jpg";
 import { FaAward, FaSchool } from "react-icons/fa";
 import { FiUsers, FiFolder } from "react-icons/fi";
 import { Link } from "react-router-dom";
